@@ -24,3 +24,4 @@ apt-get install nano  vim  -y  && \
 echo "****** Firewal Install ******" && \
 apt-get install firewalld -y 
 
+CMD ["/bin/bash"]
