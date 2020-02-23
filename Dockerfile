@@ -24,8 +24,8 @@ apt-get install nano  vim  -y  && \
 echo "****** Firewal Install ******" && \
 apt-get install firewalld -y 
 
-#Test Port Open
 
-EXPOSE 3300
+RUN echo "Setup And Upgrades Process Completed"
+
 
 CMD ["/bin/bash"]
